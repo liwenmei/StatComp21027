@@ -1,0 +1,16 @@
+Package: StatComp21027
+Type: Package
+Title: composite semiparametric empirical likelihood ratio in longitudinal data
+Version: 1.0
+Date: 2021-12-20
+Author: Li Wenmei
+Maintainer: Li Wenmei <lwmqt@mail.ustc.edu.cn>
+Description: This R package provides users with two functions, mainly for testing the uniformity of the distribution of multiple sets of categorical data. The first function is to calculate the test statistics, and the second function provides the p value of the test through the bootstrap method.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.7), knitr, rmarkdown, microbenchmark, parallel, MASS,nnet, compiler, stats, ggplot2, bootstrap, boot, RANN, energy, Ball, qpdf
+LinkingTo: Rcpp
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/liwenmei/StatComp21027
+BugReports: http://github.com/liwenmei/StatComp21027/issues
